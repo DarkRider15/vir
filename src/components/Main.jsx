@@ -1,6 +1,6 @@
 import Cart from "./Cart";
 import Cryptocur from "./crypto";
-import module from "./Main.module.css"
+import module from "./Main.css"
 
 
 

@@ -1,25 +1,25 @@
 import { useState } from "react"
-import module from "./crypto.module.css"
+import module from "./crypto.css"
 
 
 export default function Cryptocur (){
     const [qty,setQty] = useState()
     const data = [
         {
-            name : "BTC",
+            name : "BITCOIN",
             price : 25000,
-            img : "https://i.ibb.co/3SMLrjs/bitcoin.png"
+           
         },
         {
             name : "DOGE",
             price : 0.07,
-            img : "https://i.ibb.co/WV5vNr2/dogecoin.png"
+           
 
         },
         {
             name : "RIPPLE",
             price : 0.45,
-            img : "https://i.ibb.co/ZMkV65r/ripple.png"
+            
         }
     ]
  
@@ -48,7 +48,6 @@ export default function Cryptocur (){
                 {
                     data && data.map((item) => <div  key={item.name}>
                          <div className={module.mapData}>
-                        <img src={item.img} alt={item.name} />
                         <p>{item.name}</p>
                         <p>${item.price}</p>
                         </div>

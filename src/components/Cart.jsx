@@ -1,4 +1,4 @@
-import module from "./Cart.module.css"
+import module from "./Cart.css"
 
 export default function Cart(){
 
